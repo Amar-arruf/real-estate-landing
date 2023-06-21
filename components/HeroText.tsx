@@ -1,5 +1,6 @@
 import { Roboto_Serif } from "next/font/google";
 import Images from "next/image";
+import { Button } from "@material-tailwind/react";
 
 import {
   FaWhatsapp,
@@ -30,6 +31,16 @@ const HeroText = () => {
             eaque quasi amet omnis totam ut corrupti iusto! Lorem ipsum, dolor
             sit amet consectetur adipisicing elit.
           </p>
+          <div className="flex justify-center md:justify-start">
+            <Button
+              variant="filled"
+              color="green"
+              size="sm"
+              className="inline w-fit !shadow-none text-base lg:text-lg text-white"
+            >
+              <span>Tanya Sekarang</span>
+            </Button>
+          </div>
 
           <div className="mt-4 justify-center md:justify-start flex items-center gap-1.5">
             <span className="text-[19px] pe-4">
@@ -51,6 +62,7 @@ const HeroText = () => {
             src="/img/home.png"
             width={768}
             height={547}
+            priority
             alt="home"
             className="w-full m-0 p-0 md:w-full md:w-[700px] md:h-[auto]  lg:w-[768px] lg:h-[547px] lg:absolute md:right-0 lg:bottom-[3.5rem]"
           />

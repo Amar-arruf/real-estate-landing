@@ -137,7 +137,7 @@ export default function TopBar() {
         <div className="container mx-auto">
           {navList}
           <div className="w-fit mx-auto">
-            <Button variant="filled" color="white" size="sm" className="mb-2">
+            <Button variant="filled" color="white" size="sm" className="mb-2 text-base">
               <span>Get Started</span>
             </Button>
           </div>
