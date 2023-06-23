@@ -67,7 +67,7 @@ const SectionAbout: React.ElementType = () => {
             alt="about Me"
             width={400}
             height={538}
-            className="lg:absolute p-5 md:p-0 md:w-1/2 lg:w-[40%] right-0 bottom-0"
+            className="lg:absolute p-5 md:p-0 md:w-1/2 lg:w-[48%] right-0 bottom-0"
           />
         </div>
       </div>
