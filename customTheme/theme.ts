@@ -35,4 +35,13 @@ export const theme = {
       },
     },
   },
+  card: {
+    styles: {
+      base: {
+        initial: {
+          position: "static",
+        },
+      },
+    },
+  },
 };

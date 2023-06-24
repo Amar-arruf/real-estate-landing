@@ -17,7 +17,7 @@ module.exports = withMT({
         14: "4.5rem",
       },
       height: {
-        "custom-screen": "50vh",
+        "custom-screen": "60vh",
       },
       width: {
         "custom-width": "40%",

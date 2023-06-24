@@ -1,5 +1,5 @@
 import { Roboto_Serif } from "next/font/google";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import * as React from "react";
 import {
   FaHome,
@@ -67,18 +67,18 @@ const ServiceSection: React.ElementType = () => {
           Color="text-black"
         />
       </div>
-      <Card className="mt-6 w-full grid justify-items-center content-center lg:grid-cols-2 !shadow-lg mb-5">
+      <Card className="mt-6 w-full grid justify-items-center lg:content-center lg:grid-cols-2 !shadow-lg mb-5">
         <CardBody>
           <Typography variant="h4" color="blue-gray" className="mb-2">
             Beli Rumah Impian Anda
           </Typography>
-          <Typography className="text-sm md:text-base lg:text-lg w-96 text-black">
+          <Typography className="text-sm md:text-base lg:text-lg w-96 text-black pe-2">
             Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vs.
           </Typography>
-          <div className="py-6">
+          <div className="py-6 pe-2">
             <Typography
               variant="paragraph"
-              className="text-sm md:text-base lg:text-lg font-semibold text-black mb-3"
+              className="text-sm md:text-base lg:text-lg font-semibold text-black mb-3 "
             >
               <FaCircle className="text-[#73B10D] mx-2 inline" /> Jorem ipsum
               dolor sit amet, consectetur adipiscing elit.
@@ -99,15 +99,12 @@ const ServiceSection: React.ElementType = () => {
             </Typography>
           </div>
         </CardBody>
-        <CardHeader color="blue-gray" className="!mt-6 mb-5 h-[85%]">
+        <CardHeader
+          color="blue-gray"
+          className="!relative !mt-6 mb-5 w-[300px] md:w-[80%] h-[275px] lg:w-[60%] lg:h-[auto]"
+        >
           {/* img */}
-          <Image
-            src={"/img/house.png"}
-            width={476}
-            height={276}
-            alt="Home"
-            className="w-[100%] h-[auto]"
-          />
+          <Image layout="fill" src={"/img/house.png"} alt="Home" />
         </CardHeader>
       </Card>
     </div>

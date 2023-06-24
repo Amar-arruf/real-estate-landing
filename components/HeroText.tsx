@@ -19,7 +19,7 @@ const roboto = Roboto_Serif({
 const HeroText = () => {
   return (
     <div className="container mx-auto">
-      <div className="flex flex-col md:flex-row ">
+      <div className="flex flex-col md:flex-row">
         <div className="text-center md:text-start  flex md:h-custom-screen w-full flex-col lg:justify-center">
           <h1
             className={`${roboto.className} text-lg md:text-2xl lg:text-5xl tracking-wider leading-normal lg:leading-14 mb-2 `}
@@ -64,7 +64,7 @@ const HeroText = () => {
             height={547}
             priority
             alt="home"
-            className="w-full m-0 p-0 md:w-full md:w-[700px] md:h-[auto]  lg:w-[768px] lg:h-[547px] lg:absolute md:right-0 lg:bottom-[3.5rem]"
+            className="w-full m-0 p-0 md:w-full md:w-[700px] md:h-[auto]  lg:w-[768px] lg:h-[547px] lg:absolute md:right-0 lg:top-[100px]"
           />
         </div>
       </div>
