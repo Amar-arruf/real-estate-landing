@@ -44,4 +44,16 @@ export const theme = {
       },
     },
   },
+  carousel: {
+    styles: {
+      base: {
+        carousel: {
+          display: "flex",
+        },
+        slide: {
+          color: "text-black",
+        },
+      },
+    },
+  },
 };
