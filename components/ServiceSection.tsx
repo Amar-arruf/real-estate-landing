@@ -67,45 +67,41 @@ const ServiceSection: React.ElementType = () => {
           Color="text-black"
         />
       </div>
-      <Card className="mt-6 w-full grid justify-items-center lg:content-center lg:grid-cols-2 !shadow-lg mb-5">
+      <Card className="mt-6 !w-[100%] grid-cols-1 grid lg:justify-items-center lg:content-center lg:grid-cols-2 !shadow-lg mb-5">
         <CardBody>
           <Typography variant="h4" color="blue-gray" className="mb-2">
             Beli Rumah Impian Anda
           </Typography>
-          <Typography className="text-sm md:text-base lg:text-lg w-96 text-black pe-2">
+          <Typography className="text-sm w[100%] text-center md:text-start md:text-base lg:text-lg lg:w-96 text-black pe-2">
             Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vs.
           </Typography>
           <div className="py-6 pe-2">
             <Typography
               variant="paragraph"
-              className="text-sm md:text-base lg:text-lg font-semibold text-black mb-3 "
+              className="text-sm md:text-base text-center md:text-start lg:text-lg font-semibold text-black mb-3 "
             >
               <FaCircle className="text-[#73B10D] mx-2 inline" /> Jorem ipsum
               dolor sit amet, consectetur adipiscing elit.
             </Typography>
             <Typography
               variant="paragraph"
-              className="text-sm md:text-base lg:text-lg font-semibold text-black mb-3"
+              className="text-sm md:text-base text-center md:text-start lg:text-lg font-semibold text-black mb-3"
             >
               <FaCircle className="text-[#73B10D] mx-2 inline" /> Jorem ipsum
               dolor sit amet, consectetur adipiscing elit.
             </Typography>
             <Typography
               variant="paragraph"
-              className="text-sm md:text-base lg:text-lg font-semibold text-black mb-3"
+              className="text-sm md:text-base text-center md:text-start lg:text-lg font-semibold text-black mb-3"
             >
               <FaCircle className="text-[#73B10D] mx-2 inline" /> Jorem ipsum
               dolor sit amet, consectetur adipiscing elit.
             </Typography>
           </div>
         </CardBody>
-        <CardHeader
-          color="blue-gray"
-          className="!relative !mt-6 mb-5 w-[300px] md:w-[80%] h-[275px] lg:w-[60%] lg:h-[auto]"
-        >
-          {/* img */}
+        <div className="!relative mx-8 !mt-6 mb-5  w-[300px] md:w-[80%] h-[275px] lg:w-[60%] lg:h-[auto]">
           <Image layout="fill" src={"/img/house.png"} alt="Home" />
-        </CardHeader>
+        </div>
       </Card>
     </div>
   );
