@@ -14,26 +14,23 @@ import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { HiOutlineChevronRight, HiOutlineChevronLeft } from "react-icons/hi";
 
 export default function ComponetReview() {
-  const [width, setWidth] = useState(Infinity);
-  const [resBol, setResBol] = useState(false);
+  const [resBol, setResBol] = useState(true);
 
   let DynamicComponent;
 
   useEffect(() => {
     window.addEventListener("resize", () => {
-      setWidth(window.innerWidth);
+      if (window.innerWidth >= 700) setResBol(false);
     });
-    width < 700 ? setResBol(true) : setResBol(false);
-
     return () => {
       window.removeEventListener("resize", () => {
-        setWidth(window.innerWidth);
+        if (window.innerWidth >= 700) setResBol(false);
       });
       console.log("remove Listener");
     };
-  }, [width]);
+  }, [resBol]);
 
-  if (resBol === true) {
+  if (resBol) {
     DynamicComponent = (
       <Carousel
         prevArrow={({ handlePrev }) => (
