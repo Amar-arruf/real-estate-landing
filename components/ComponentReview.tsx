@@ -14,21 +14,22 @@ import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { HiOutlineChevronRight, HiOutlineChevronLeft } from "react-icons/hi";
 
 export default function ComponetReview() {
-  const [resBol, setResBol] = useState(true);
+  const [dimension, setDimension] = useState(0);
+  const [resBol, setResBol] = useState(false);
 
   let DynamicComponent;
 
   useEffect(() => {
     window.addEventListener("resize", () => {
-      if (window.innerWidth >= 700) setResBol(false);
+      setDimension(window.innerWidth);
     });
+    window.innerWidth <= 400 ? setResBol(true) : setResBol(false);
     return () => {
       window.removeEventListener("resize", () => {
-        if (window.innerWidth >= 700) setResBol(false);
+        setDimension(window.innerWidth);
       });
-      console.log("remove Listener");
     };
-  }, [resBol]);
+  }, [resBol, dimension]);
 
   if (resBol) {
     DynamicComponent = (
