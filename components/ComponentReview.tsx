@@ -84,8 +84,8 @@ export default function ComponetReview() {
                   </div>
                 </div>
                 <Typography className="my-3">
-                  Because it's about motivating the doers. Because I'm here to
-                  follow my dreams and inspire others.
+                  Because it&apos;s about motivating the doers. Because I&apos;m
+                  here to follow my dreams and inspire others.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -116,8 +116,8 @@ export default function ComponetReview() {
                   </div>
                 </div>
                 <Typography className="my-3">
-                  Because it's about motivating the doers. Because I'm here to
-                  follow my dreams and inspire others.
+                  Because it&apos;s about motivating the doers. Because I&apos;m
+                  here to follow my dreams and inspire others.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -148,8 +148,8 @@ export default function ComponetReview() {
                   </div>
                 </div>
                 <Typography className="my-3">
-                  Because it's about motivating the doers. Because I'm here to
-                  follow my dreams and inspire others.
+                  Because it&apos;s about motivating the doers. Because I&apos;m
+                  here to follow my dreams and inspire others.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -180,8 +180,8 @@ export default function ComponetReview() {
                   </div>
                 </div>
                 <Typography className="my-3">
-                  Because it's about motivating the doers. Because I'm here to
-                  follow my dreams and inspire others.
+                  Because it&apos;s about motivating the doers. Because I&apos;m
+                  here to follow my dreams and inspire others.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -247,8 +247,8 @@ export default function ComponetReview() {
                   </div>
                 </div>
                 <Typography className="my-3">
-                  Because it's about motivating the doers. Because I'm here to
-                  follow my dreams and inspire others.
+                  Because it&apos;s about motivating the doers. Because I&apos;m
+                  here to follow my dreams and inspire others.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -275,8 +275,8 @@ export default function ComponetReview() {
                   </div>
                 </div>
                 <Typography className="my-3">
-                  Because it's about motivating the doers. Because I'm here to
-                  follow my dreams and inspire others.
+                  Because it&apos;s about motivating the doers. Because I&apos;m
+                  here to follow my dreams and inspire others.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -307,8 +307,8 @@ export default function ComponetReview() {
                   </div>
                 </div>
                 <Typography className="my-3">
-                  Because it's about motivating the doers. Because I'm here to
-                  follow my dreams and inspire others.
+                  Because it&apos;s about motivating the doers. Because I&apos;m
+                  here to follow my dreams and inspire others.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -335,8 +335,8 @@ export default function ComponetReview() {
                   </div>
                 </div>
                 <Typography className="my-3">
-                  Because it's about motivating the doers. Because I'm here to
-                  follow my dreams and inspire others.
+                  Because it&apos;s about motivating the doers. Because I&apos;m
+                  here to follow my dreams and inspire others.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
