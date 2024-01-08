@@ -65,7 +65,7 @@ export default function ComponetReview() {
         className="rounded-none "
       >
         <div className="relative h-[50vh] w-full">
-          <div className="absolute inset-0 gap-4 grid w-full place-items-center h-full w-full ">
+          <div className="absolute inset-0 gap-4 grid place-items-center h-full w-full ">
             <Card className="w-96 h-fit lg:justify-self-end">
               <CardBody>
                 <div className="flex gap-2 items-center">
@@ -97,7 +97,7 @@ export default function ComponetReview() {
           </div>
         </div>
         <div className="relative h-[50vh] w-full">
-          <div className="absolute inset-0 gap-4 grid w-full place-items-center h-full w-full ">
+          <div className="absolute inset-0 gap-4 grid  place-items-center h-full w-full ">
             <Card className="w-96 h-fit">
               <CardBody>
                 <div className="flex gap-2 items-center">
